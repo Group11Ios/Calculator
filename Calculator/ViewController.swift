@@ -82,6 +82,7 @@ class ViewController: UIViewController {
         previousNumber = 0
         numberOnScreen = 0
         operation = 0
+        showpheptinh.text = ""
     }
     @IBAction func buttonChangeStatus(_ sender: UIButton) {
         numberOnScreen = -1 * numberOnScreen
